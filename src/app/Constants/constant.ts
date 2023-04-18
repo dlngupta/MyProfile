@@ -9,15 +9,9 @@ export class constant {
   public static personalEmail: string = "vishalsmg97@gmail.com";
   public static dob: "07/23/1997";
   public static location: string = "Karnataka, India";
-  public static summary: string = ` I help you build brand for your business at an affordable price. Thousands
-  of clients have procured exceptional results while working with our
-  dedicated team. when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book.
-
-  Delivering work within time and
-  budget which meets client’s requirements is our moto. Lorem Ipsum has been
-  the industry's standard dummy text ever when an unknown printer took a
-  galley.`
+  public static summary: string = `  I'm a software engineer and developer with experience in various technologies such as Angular, .Net Core, Python, and SQL Server.
+  I have worked on a range of projects, including a healthcare website, a file system project using blockchain technology, an interactive job platform, and an online storage system using blockchain technology.
+  I have worked on both the front-end and back-end of these projects and have experience designing web pages, creating extensions, and developing windows applications.`
 
 
   public static services: Service[] = [
