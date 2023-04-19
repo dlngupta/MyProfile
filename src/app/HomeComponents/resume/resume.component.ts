@@ -13,11 +13,27 @@ export class ResumeComponent {
 colleges:college[];
 experinces: experience[];
 skills: skills[];
-
+// displayStyle:string="none";
 constructor(){
   this.experinces = constant.experience;
   this.colleges = constant.colleges;
   this.skills = constant.skills;
+}
+displayStyle = "none";
+projDetails:any={};
+companyName:string="";
+  
+  openPopup(e,comp) {
+
+    this.displayStyle = "block";
+    this.projDetails=e;
+    this.companyName=comp;
+  }
+  closePopup() {
+    this.displayStyle = "none";
+  }
+test(){
+  this.displayStyle="block"
 }
 
 }

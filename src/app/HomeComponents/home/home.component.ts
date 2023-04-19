@@ -29,7 +29,7 @@ export class HomeComponent implements AfterViewInit{
     this.section2Offset = this.section2.nativeElement.offsetTop;
     this.section3Offset = this.section3.nativeElement.offsetTop;
     this.section4Offset = this.section4.nativeElement.offsetTop;
-    this.section5Offset = this.section5.nativeElement.offsetTop;
+    //this.section5Offset = this.section5.nativeElement.offsetTop;
     this.section6Offset = this.section6.nativeElement.offsetTop;
   }
 
@@ -46,9 +46,11 @@ export class HomeComponent implements AfterViewInit{
       this.menuActionService.currentSection = "whatido";
     } else if (window.pageYOffset >= this.section4Offset && window.pageYOffset < this.section5Offset) {
       this.menuActionService.currentSection = "resume";
-    } else if (window.pageYOffset >= this.section5Offset && window.pageYOffset < this.section6Offset) {
-      this.menuActionService.currentSection = "section5";
-    } else if (window.pageYOffset >= this.section6Offset) {
+    } 
+    // else if (window.pageYOffset >= this.section5Offset && window.pageYOffset < this.section6Offset) {
+    //   this.menuActionService.currentSection = "section5";
+    // }
+     else if (window.pageYOffset >= this.section6Offset) {
       this.menuActionService.currentSection = "contact";
     } else {
       this.menuActionService.currentSection = "welcome";
