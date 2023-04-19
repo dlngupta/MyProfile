@@ -9,9 +9,8 @@ export class constant {
   public static personalEmail: string = "dln.gupta5@gmail.com";
   public static dob: "07/21/1994";
   public static location: string = "Ongole, India";
-  public static summary: string = `  I'm a software engineer and developer with experience in various technologies such as Angular, .Net Core, Python, and SQL Server.
-  I have worked on a range of projects, including a healthcare website, a file system project using blockchain technology, an interactive job platform, and an online storage system using blockchain technology.
-  I have worked on both the front-end and back-end of these projects and have experience designing web pages, creating extensions, and developing windows applications.`
+  public static summary: string = ` Over around 6 years of experience in software application development web-applications by using Microsoft technologies
+   .NET Core and UI framewrok Angular and using database is SQL Server. Hands on experience in maintaining application flow, debug, build and deployment and Have good analytical ability and development skills, capable of working independently or in teams.`
 
 
   public static services: Service[] = [
@@ -24,7 +23,7 @@ export class constant {
     {
       title: "Back-end Developement",
       icon: "bi bi-gear-fill",
-      information: "I Use .Net Core and .Net FrameWork for back-end development. I have also worked on Python.",
+      information: "I Use .Net Core and .Net FrameWork for back-end development. I have knoweldge on Azure devlopment.",
     },
     {
       title: "Database",

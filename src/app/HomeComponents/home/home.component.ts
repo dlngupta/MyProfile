@@ -39,19 +39,19 @@ export class HomeComponent implements AfterViewInit{
   @HostListener('window:scroll', ['$event'])
   onSectionChange(sectionId: Event) {
     if (window.pageYOffset >= this.section1Offset && window.pageYOffset < this.section2Offset) {
-      this.menuActionService.currentSection = "section1";
+      this.menuActionService.currentSection = "welcome";
     } else if (window.pageYOffset >= this.section2Offset && window.pageYOffset < this.section3Offset) {
-      this.menuActionService.currentSection = "section2";
+      this.menuActionService.currentSection = "aboutme";
     } else if (window.pageYOffset >= this.section3Offset && window.pageYOffset < this.section4Offset) {
-      this.menuActionService.currentSection = "section3";
+      this.menuActionService.currentSection = "whatido";
     } else if (window.pageYOffset >= this.section4Offset && window.pageYOffset < this.section5Offset) {
-      this.menuActionService.currentSection = "section4";
+      this.menuActionService.currentSection = "resume";
     } else if (window.pageYOffset >= this.section5Offset && window.pageYOffset < this.section6Offset) {
       this.menuActionService.currentSection = "section5";
     } else if (window.pageYOffset >= this.section6Offset) {
-      this.menuActionService.currentSection = "section6";
+      this.menuActionService.currentSection = "contact";
     } else {
-      this.menuActionService.currentSection = "section1";
+      this.menuActionService.currentSection = "welcome";
     }
   }
 
