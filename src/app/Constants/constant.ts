@@ -5,10 +5,10 @@ import { Service } from "../Models/Service";
 import { skills } from "../Models/skills";
 
 export class constant {
-  public static fullName: string = "Vishal E";
-  public static personalEmail: string = "vishalsmg97@gmail.com";
-  public static dob: "07/23/1997";
-  public static location: string = "Karnataka, India";
+  public static fullName: string = "DLN Gupta";
+  public static personalEmail: string = "dln.gupta5@gmail.com";
+  public static dob: "07/21/1994";
+  public static location: string = "Ongole, India";
   public static summary: string = `  I'm a software engineer and developer with experience in various technologies such as Angular, .Net Core, Python, and SQL Server.
   I have worked on a range of projects, including a healthcare website, a file system project using blockchain technology, an interactive job platform, and an online storage system using blockchain technology.
   I have worked on both the front-end and back-end of these projects and have experience designing web pages, creating extensions, and developing windows applications.`
@@ -40,32 +40,32 @@ export class constant {
 
   public static colleges: college[] = [
     {
-      name: "DVS Independent",
-      course: "PCMB",
-      date: "2013 - 2015"
+      name: "Sri Sadhana Junior college",
+      course: "Intermediate",
+      date: "2009 - 2011"
     },
     {
-      name: "PESITM",
-      course: "Computer Science",
-      date: "2015 - 2019"
+      name: "DR.SGIET",
+      course: "Electronics & Communication Engineering",
+      date: "2011 - 2015"
     }
   ];
 
   public static experience: experience[] = [
     {
-      company: "Srichid Technologies",
-      date: "july/2019 - dec/2021",
-      designation: "Software Developer"
-    },
-    {
-      company: "Collabera Technologies",
-      date: "jan/2022 - sep/2022",
+      company: "Micro Spark Software Solutions Private Limited ",
+      date: "OCT/2016 - DEC/2019",
       designation: "Software Engineer"
     },
     {
-      company: "Optum",
-      date: "oct/2022 - present",
-      designation: "Software Engineer"
+      company: "Newt Global India Private Limited",
+      date: "DEC/2019 - JAN/2021",
+      designation: "Senior Software Engineer"
+    },
+    {
+      company: "CitiusTech Healthcare Technology Pvt Ltd",
+      date: "Mar/2021 - Present",
+      designation: "Technical Lead - I"
     }
   ];
 
@@ -91,7 +91,7 @@ export class constant {
       percentage: "75"
     },
     {
-      skill: "React Js",
+      skill: "Azure Development",
       percentage: "50"
     },
   ];
@@ -133,7 +133,7 @@ export class constant {
   ];
 
   public static getAge() {
-    var date = new Date("07/23/1997");
+    var date = new Date("07/21/1994");
     var month_diff = Date.now() - date.getTime();
     var age_dt = new Date(month_diff);
     var year = age_dt.getUTCFullYear();

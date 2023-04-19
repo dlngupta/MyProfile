@@ -22,13 +22,13 @@ export class WelcomeComponent implements OnInit {
     })
 
     writer
-    .type("I'm a Full Stack Web Developer.")
+    .type("I'm a Full Stack .NET Developer.")
     .rest(500)
     .clear()
     .type("I use Angular, .Net Core and MSSQL.")
     .rest(500)
     .clear()
-    .type("I have also worked on Azure DevOps.")
+    .type("I have also worked on Azure DevOps & Azure Developmen.")
     .rest(500)
     .clear()
     .start()

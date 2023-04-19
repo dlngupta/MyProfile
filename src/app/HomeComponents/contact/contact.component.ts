@@ -14,7 +14,7 @@ export class ContactComponent {
   FormData: FormGroup;
 
   constructor(private emaiService:EmailService,
-    private notifierService: NotificationService)
+    )
   {
     this.FormData = new FormGroup({
       email: new FormControl('', [Validators.required, Validators.email]),
@@ -35,8 +35,8 @@ export class ContactComponent {
       this.emaiService.SendEmail(input).subscribe(resp=>{
         form.reset();
         this.formDirective.resetForm();
-        this.notifierService.showNotification("success", "Sent Successfully, Thank you for contacting!!!");
-        this.notifierService.showNotification("info", "I will contact you soon.")
+       // this.notifierService.showNotification("success", "Sent Successfully, Thank you for contacting!!!");
+        //this.notifierService.showNotification("info", "I will contact you soon.")
       },
       (err)=>{
         console.log(err);
