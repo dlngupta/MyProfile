@@ -71,7 +71,8 @@ export class constant {
           ●	Maintain the Reports and Medications List
           ●	Complete the Billing 
           `,
-          roles:`●	Involved in designing forms using HTML, Bootstrap.
+          roles:`
+          ●	Involved in designing forms using HTML, Bootstrap.
           ●	Involved in developing business logic using C#.
           ●	Involved in developing client side logic using JavaScript and  Jquery.
           ●	Involved in creating tables and stored procedures in SQL using SQL Server 2012 and functions in PostgreSQL.
@@ -128,8 +129,8 @@ export class constant {
       technologies:"Angular 5,MVC WebApi, Node Api’s, Sinch Client, GIT and PostgreSQL",
       teamSize:3,
       description:`Tele-Medicine is an application to establish communication between patient and provider to whom registered with this tele-medicine application. For authenticate users we use KIOKSID . Provider will generate an unique KIOSK ID by registering the patient into admin console. That KIOSKID will share to the patient and while logging into the application patient need to enter that particular KIOSK ID and logged into application  After that provider will initiate call to the patient.`,
-      roles:`
-      ●	Understanding the functionalities and requirements.
+      roles:
+    ` ●	Understanding the functionalities and requirements.
       ●	Enhance legacy application by building new components in Angular5 and Typescript by using Sinch Client.
       ●	Created Angular Directives, Modules, Pipes..etc in TypeScript.
       ●	Created Angular Directives for Date Picker, Pager and other Custom controls and corresponding controllers. 

@@ -22,6 +22,7 @@ constructor(){
 displayStyle = "none";
 projDetails:any={};
 companyName:string="";
+infoDisplay="none"
   
   openPopup(e,comp) {
 
@@ -33,7 +34,7 @@ companyName:string="";
     this.displayStyle = "none";
   }
 test(){
-  this.displayStyle="block"
+  this.infoDisplay="block"
 }
 
 }
