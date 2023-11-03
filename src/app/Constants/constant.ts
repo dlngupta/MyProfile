@@ -41,12 +41,14 @@ export class constant {
     {
       name: "Sri Sadhana Junior college",
       course: "Intermediate",
-      date: "2009 - 2011"
+      date: "2009 - 2011",
+      url:"http://srisadhanaedu.org/"
     },
     {
       name: "DR.SGIET",
       course: "Electronics & Communication Engineering",
-      date: "2011 - 2015"
+      date: "2011 - 2015",
+      url:""
     }
   ];
 
@@ -56,6 +58,7 @@ export class constant {
       date: "OCT/2016 - DEC/2019",
       designation: "Software Engineer",
       workedOnProjectsCount:4,
+      url:"https://www.microspark.com/",
       projects:[
         {
           
@@ -150,6 +153,7 @@ export class constant {
       date: "DEC/2019 - JAN/2021",
       designation: "Senior Software Engineer",
       workedOnProjectsCount:1,
+      url:"https://newtglobal.com/",
       projects:[ {
           
         name:" iTOC(IT Advisory Oversight Committee Tool)",
@@ -184,6 +188,7 @@ export class constant {
       date: "Mar/2021 - Present",
       designation: "Technical Lead - I",
       workedOnProjectsCount:1,
+      url:"https://www.citiustech.com/",
       projects:[{
           
         name:" OPAS (Cloud Migration and Modernization)",
