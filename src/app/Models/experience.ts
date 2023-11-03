@@ -3,5 +3,6 @@ export class experience {
   date: string;
   designation:string;
   workedOnProjectsCount:number;
-  projects:any
+  projects:any;
+  url:string;
 }
