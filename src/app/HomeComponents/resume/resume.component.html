@@ -9,13 +9,15 @@
  
   <div class="row m-t-1">
     <h2 class="skills text-white fw-600 m-tb-2">Graduation</h2>
-    <div class="col-md-6">
+    <div class="col-md-12">
       <mat-card class="bg-b text-white m-t-1 br-10" *ngFor="let c of colleges">
         <mat-card-content >
-          <img (click)="test()" style="width:30px;height: 30px;float: right;cursor: pointer;"
+          <a href="c.url">
+          <img  style="width:30px;height: 30px;float: right;cursor: pointer;"
           class="rounded-circle image-size br-g"
           src="../../assets/info-icon.png"
         />
+      </a>
           <div class="p-1 fw-600">
            
             <span class="date bg-g p-3-1 br-10">{{ c.date }}</span>
@@ -30,20 +32,47 @@
   <div class="row m-t-1">
     <h2 class="skills text-white fw-600 m-tb-2">Experience</h2>
     
-    <div class="col-md-6">
+    <div class="col-md-12">
       <mat-card class="fw-500 bg-b text-white m-t-1 br-10" *ngFor="let e of experinces">
         <mat-card-content >
-          <img   style="width:30px;height: 30px;float: right;cursor: pointer;"
-          class="rounded-circle image-size br-g"
-          src="../../assets/info-icon.png"
-        />
+          <a href={{e.url}} target="_blank" >
+            <img  style="width:30px;height: 30px;float: right;cursor: pointer;"
+            class="rounded-circle image-size br-g"
+            src="../../assets/info-icon.png"
+          />
+        </a>
           <div class="p-1 fw-600">
             <span class="date bg-g p-3-1 br-10">{{ e.date }}</span>
             <h3 class="course ts-20 tp-1">{{ e.designation }}</h3>
             <p class="college text-green">{{ e.company }}</p>
             <p class="course ts-20 tp-1">Projects Worked <span class="date bg-g p-3-1 br-10">{{e.workedOnProjectsCount}}</span></p>
             <ul *ngFor="let proj of e.projects">
-              <li><a href='javascript:;'  (click)="openPopup(proj,e.company)">{{proj.name}}</a></li>
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      {{proj.name}}
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p class="card-text"><b>Project name: </b>{{proj.name}}</p>
+                      <p class="card-text"><b>Technologies: : </b>{{proj.technologies}}</p>
+                      
+                      <p class="card-text"><b>Team Size: </b>{{proj.teamSize}}</p>
+                      <p class="card-text"><b>Project Description: 
+                        </b>{{proj.description}} </p>
+                        <p class="card-text"><b>Roles & Responsibilities:  
+                        </b> </p>
+                        {{proj.roles}}
+                    </div>
+                  </div>
+                </div>
+               
+                  
+              
+              </div>
+              <!-- <li><a href='javascript:;'  (click)="openPopup(proj,e.company)">{{proj.name}}</a></li> -->
              
             </ul>
           </div>
@@ -123,6 +152,7 @@
       </div>
     </div>
   </div>
+ 
   
 </div>
 
