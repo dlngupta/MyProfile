@@ -48,7 +48,7 @@ export class constant {
       name: "DR.SGIET",
       course: "Electronics & Communication Engineering",
       date: "2011 - 2015",
-      url:""
+      url:"https://prakasam.ap.gov.in/public-utility/dr-samuel-george-institute-of-engineering-technology/"
     }
   ];
 
