@@ -53,35 +53,7 @@ export class constant {
   ];
 
   public static experience: experience[] = [
-    {
-      company: "Micro Spark Software Solutions Private Limited ",
-      date: "OCT/2016 - DEC/2019",
-      designation: "Software Engineer",
-      workedOnProjectsCount:4,
-      url:"https://www.microspark.com/",
-      projects:[
-        {
-          
-          name:"Medics Cloud (Health care)",
-          technologies:"C# .NET, ASP.NET MVC, JQUERY, HTML.,CSS and Boot Strap",
-          teamSize:3,
-          description:`Medics Cloud is Health care domain web application, by using this application We can add appointments to the patients and schedule the appointments and provide the 	Medications Information and Surgeries and Family History Information and providing the Provider (doc) and patient and providing billing facility
-          ●	creating the appointments to the patient and scheduling
-          ●	Maintain the Medical History of Patient
-          ●	Maintain the Family History.
-          ●	Maintaining the Procedures Information.
-          ●	Schedule the Procedures
-          ●	Maintain the Reports and Medications List
-          ●	Complete the Billing 
-          `,
-          roles:`
-          ●	Involved in designing forms using HTML, Bootstrap.
-          ●	Involved in developing business logic using C#.
-          ●	Involved in developing client side logic using JavaScript and  Jquery.
-          ●	Involved in creating tables and stored procedures in SQL using SQL Server 2012 and functions in PostgreSQL.
-          ●	Used GITHub  for Source code Management.
-          `
-        },
+  
     {
           
       name:"MC Lite",
