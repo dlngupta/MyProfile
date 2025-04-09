@@ -54,72 +54,8 @@ export class constant {
 
   public static experience: experience[] = [
   
-    {
-          
-      name:"MC Lite",
-      technologies:"C# .NET, ASP.NET MVC, JQUERY, HTML.,CSS and Boot Strap",
-      teamSize:3,
-      description:`Mc-Lite is a Health Care Domain Web Application. The Main Aim of this application is Showing   Patient E-Prescription and  showing Patient Details Like Short-report, Medications, Demographics, Labresults, DetailView, Visits, Patient Documents on Time Line UI For Easy and Fast Accessing  Separate Module and Developed.`,
-      roles:`
-      ●	Understanding the functionalities and requirements.
-      ●	Enhance legacy application by building new components in Angular4 and typescript.
-      ●	Involved in developing application styles using Bootstrap and CSS.
-      ●	Created Angular Directives, Modules, Services and  Pipes..etc in TypeScript.
-      ●	Created Angular Directives for Card View, Date Picker, Pager and other Custom controls and corresponding controllers. 
-      ●	Created Services such as Error Handler, Modal Dialog Service and Toaster Service..etc which can be utilized across application.
-      ●	Created Templates for the UI View in Html 5,css ,bootstrap  and Angular directives.
-      ●	Implemented Routers & History in Single Page App(SPA).
-      ●	Worked Extensively with Angular CLI for creating components, Services, Pipes and Directives.
-      ●	Created middle tire http services using Asp.net Web API. 
-      ●	Cooperating with the back-end developer in the process of building the RESTful API
-      ●	Creating Tables, Writing Stored Procedures, Functions.
-      ●	Used GIT  for Source code Management.
-      
-     
-      `
-    },
     
-    {
-          
-      name:"PMP(Prescription Monitoring Program)",
-      technologies:": Angular 5,Node Api,GIT and PostgreSQL",
-      teamSize:3,
-      description:`Prescription Monitoring Program is to see a report for a patient with multiple prescriptions in multiple states including testing provider authorization. The main goal of PMP is to monitor medications or drug details of a patient. Where as all patient medication history is maintaining by state organization. And they will maintain each and every record based on unique patients account and npi values and those records attached to the patient documents. So provider can easily know patients past medication details. The state organization collects data from pharmacies and insurance companies.`,
-      roles:`
-      ●	Understanding the functionalities and requirements.
-      ●	Enhance legacy application by building new components in Angular5 and typescript.
-      ●	Involved in developing application styles using Bootstrap and css.
-      ●	Created Angular Directives, Modules, Pipes..etc in TypeScript.
-      ●	Created Angular Directives for Card View, Date Picker, Pager and other Custom controls and corresponding controllers. 
-      ●	Worked Extensively with Angular CLI for creating components, Services, Pipes and Directives.
-      ●	Created middle tire http services using Node API.
-      ●	Cooperating with the back-end developer in the process of building the NodeJs services
-      ●	Used GIT  for Source code Management.
-      
-      `
-    },
-    {
-          
-      name:"Tele-Medicine Virtual Exam Room",
-      technologies:"Angular 5,MVC WebApi, Node Api’s, Sinch Client, GIT and PostgreSQL",
-      teamSize:3,
-      description:`Tele-Medicine is an application to establish communication between patient and provider to whom registered with this tele-medicine application. For authenticate users we use KIOKSID . Provider will generate an unique KIOSK ID by registering the patient into admin console. That KIOSKID will share to the patient and while logging into the application patient need to enter that particular KIOSK ID and logged into application  After that provider will initiate call to the patient.`,
-      roles:
-    ` ●	Understanding the functionalities and requirements.
-      ●	Enhance legacy application by building new components in Angular5 and Typescript by using Sinch Client.
-      ●	Created Angular Directives, Modules, Pipes..etc in TypeScript.
-      ●	Created Angular Directives for Date Picker, Pager and other Custom controls and corresponding controllers. 
-      ●	Worked Extensively with Angular CLI for creating components, Services, Pipes and Directives.
-      ●	Created middle tire http services using Asp.net Web API and Node Apis. 
-      ●	Build a UI by using media tags to make an Provider to Patient communication.
-      ●	Handle the errors for  Make a VideoChat Application by calling Sinch Services and contact to Sinch Support.
-      ●	Cooperating with the back-end developer in the process of building the NodeJs services
-      ●	Used GIT  for Source code Management.
-      
-      `
-    }]
-
-    },
+  
     {
       company: "Newt Global India Private Limited",
       date: "DEC/2019 - JAN/2021",
